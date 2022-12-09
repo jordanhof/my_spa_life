@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="../images/logo_my_spa.png">
+    <link rel="stylesheet" href="../styles/main_styles.css">
+    <title>My Spa - Massages</title>
+</head>
+<body>
+    <nav class="navbar">
+        <a href="#"><img class="logo" src="../images/logo_my_spa.png" alt="logo_my_spa"></a>
+        <div class="nav-link">
+            <ul>
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="formules.html">Formules</a></li>
+                <li class="active"><a href="massages.html">Massages</a></li>
+                <li><a href="contact.html">Contactez-nous</a></li>
+                <li id="btn-reservation"><a href="#">Reservation</a></li>
+            </ul>
+        </div>
+        <img class="menu-btn" src="../images/menu-btn.png" alt="menu-btn">
+    </nav>
+    <header>
+        <div>
+            <h1>Spa Privatif<br><span>votre espace bien être</span></h1>
+        </div>    
+    </header>
+    <section>
+        
+    </section>
+    <footer>
+        <div class="big-block">
+            <div class="footer-block">
+                <div class="footer-info">
+                    <p>Rue Georges Rency, 28</p>
+                    <p>1200 Woluwe-Saint-Lambert</p>
+                    <p>Belgique</p>
+                </div>
+            </div>
+            <div class="footer-block">
+                <div class="footer-media">
+                    <p><i class="fa-solid fa-envelope"></i> Email : <a href="mailto:contact@my-spa.com">contact@my-spa.com</a></p>
+                    <p><i class="fa-solid fa-phone"></i> Téléphone : <a href="tel:+32472727272">+32 472 72 72 72</a></p>
+                    <div class="social-media">
+                        <p><a href="https://www.facebook.com/"><i class="fa-brands fa-facebook"></i></a></p>
+                        <p><a href="https://www.instagram.com/"><i class="fa-brands fa-instagram"></i></a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+    <script>
+        const menuBtn = document.querySelector(".menu-btn")
+        const navLink = document.querySelector(".nav-link")
+        const Logo = document.querySelector(".logo")
+ 
+        menuBtn.addEventListener('click',()=>{
+        navLink.classList.toggle('mobile-menu')
+        Logo.classList.toggle('mobile-menu')
+        })
+    </script>
+    <script src="https://kit.fontawesome.com/0b0602fddd.js" crossorigin="anonymous"></script>
+</html>

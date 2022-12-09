@@ -1,0 +1,59 @@
+@font-face {
+    font-family: Comfortaa;
+    src: url(../fonts/Comfortaa-VariableFont_wght.ttf);
+}
+@font-face{
+    font-family: Candara;
+    src: url(../fonts/Candara.ttf);
+}
+/* ====COLOR==== 
+
+RGB(202, 187, 167)
+RGB(236, 231, 231)
+RGB(7, 30, 8)
+
+*/
+
+section h2{
+    text-align: center;
+    margin-top: 40px;
+    font-size: 3em;
+    font-weight: 700;
+}
+
+.grid{
+    max-width: 1300px;
+    width: 90%;
+    height: auto;
+    margin: 30px auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 400px);
+    justify-content: center;
+    grid-gap: 25px;
+}
+
+.grid-item{
+    width: 400px;
+    height: 500px;
+}
+
+.grid-item img{
+    width: 380px;
+    height: 300px;
+    display: flex;
+    margin: 10px auto;
+    border-radius: 40px;
+}
+
+.grid-item h4{
+    font-size: 20px;
+    margin-left: 20px;
+    margin-top: 15px;
+    color: black;
+}
+
+.grid-item p{
+    margin-left: 20px;
+    margin-top: 10px;
+    color: black;
+}

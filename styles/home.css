@@ -1,0 +1,29 @@
+@font-face {
+    font-family: Comfortaa;
+    src: url(../fonts/Comfortaa-VariableFont_wght.ttf);
+}
+@font-face{
+    font-family: Candara;
+    src: url(../fonts/Candara.ttf);
+}
+/* ====COLOR==== 
+
+RGB(202, 187, 167)
+RGB(236, 231, 231)
+RGB(7, 30, 8)
+
+*/
+
+div h2{
+    padding: 20px;
+    text-align: center;
+    font-size: 2.5em
+}
+
+#video-home-page{
+    display: block;
+    border-radius: 20px;
+    width: 80vw;
+    margin: 0 auto;
+    text-align: center;
+}

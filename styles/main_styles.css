@@ -1,0 +1,194 @@
+@font-face {
+    font-family: Comfortaa;
+    src: url(../fonts/Comfortaa-VariableFont_wght.ttf);
+}
+@font-face{
+    font-family: Candara;
+    src: url(../fonts/Candara.ttf);
+}
+/* ====COLOR==== 
+
+RGB(202, 187, 167)
+RGB(236, 231, 231)
+RGB(7, 30, 8)
+
+*/
+
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    font-family: Comfortaa;
+}
+
+body{
+    background-color: RGB(202, 187, 167);
+}
+
+/* =====NAV BAR===== */
+
+.navbar{
+    position: absolute;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.navbar a{
+    color: RGB(202, 187, 167);
+    font-weight: 800;
+}
+
+.navbar .logo{
+    height: 6rem;
+}
+
+.navbar .nav-link ul{
+    display: flex;  /* Alignement l'un à la suite de l'autre des élément qui se trouve dans ul*/
+}
+
+.navbar .nav-link ul li{
+    margin: 0 25px;
+}
+
+.navbar .nav-link ul li.active a{
+    color: rgb(5, 56, 5);
+}
+
+.navbar .menu-btn{
+    display: none;
+    position: absolute;
+    top: 45px;
+    right: 30px;
+    height: 30px;
+}
+
+.nav-link li{
+    padding: 10px;
+    border-radius: 5px;
+}
+
+#btn-reservation{
+    background-color: rgb(5, 56, 5);;
+}
+
+.nav-link li:hover{
+    background-color: rgba(7, 30, 8,0.3);
+}
+
+@media screen and (max-width: 935px) {
+    .logo{
+        padding: 15px;
+    }
+
+    .navbar{
+        padding: 0;
+    }
+    .navbar .menu-btn{
+        display: block;
+    }
+
+    .nav-link{
+        top: 0;
+        left: 0;
+        position: absolute;
+        background-color: rgba(255, 255, 255, 0.359);
+        backdrop-filter: blur(10px);
+        height: 100vh;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: -110%;
+    }
+
+    .logo.mobile-menu{
+        display: none;
+    }
+
+    .nav-link.mobile-menu{
+        margin-left: 0;
+    }
+
+    .nav-link ul{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .navbar .nav-link ul li{
+        margin: 25px 0;
+        font-size: 1.2em;
+    }
+}
+
+/* =====HEADER===== */
+
+header{
+    height: 500px;
+    background-image: url(../images/banner-header.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+header div{
+    display: flex;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+header div h1{
+    text-align: center;
+    font-weight: 900;
+    font-size: 3.5em;
+    color: RGB(7, 30, 8);
+}
+
+header div h1 span{
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 3rem;
+}
+
+/* =======FOOTER======= */
+footer{
+    padding: 20px;
+    display: flex;
+}
+
+footer .big-block{
+    max-width: 1100px;
+    width: 100%;
+    display: flex;
+    margin: 0 auto;
+    flex-wrap: wrap;
+}
+
+.footer-block{
+    width: 300px;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.footer-media .social-media{
+    width: 20%;
+    display: inline-flex;
+    margin: 0 auto;
+    justify-content: space-between;
+    font-size: 25px;
+}
+
+.footer-block p{
+    padding-bottom: 10px;
+}
+
+footer a{
+    color: black;
+}   
