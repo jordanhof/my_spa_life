@@ -1,0 +1,100 @@
+.contact{
+    padding-bottom: 30px;
+}
+
+.contact h2{
+    padding: 20px;
+    text-align: center;
+    font-size: 2.5em
+}
+
+.formulaire{
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.formulaire form{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 30px;
+    border-radius: 20px;
+    background-color: aliceblue;
+}
+
+.formulaire form input, select, textarea, button{
+    padding: 15px;
+    margin-top: 10px;
+    border: 0;
+    outline: 0;
+}
+
+.formulaire #nom{
+    border-top-left-radius: 20px;
+}
+
+.formulaire #prenom{
+    border-top-right-radius: 20px;
+}
+
+.formulaire #message{
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.formulaire form input,
+.formulaire form textarea,
+.formulaire form select,
+.formulaire form button{
+    background-color: #CABBA7;
+}
+
+.formulaire form input:hover,
+.formulaire form textarea:hover,
+.formulaire form select:hover
+{
+    border-bottom: 3px solid black;
+}
+
+.formulaire #nom, #prenom, #mail, #tel{
+    width: 45%;
+}
+
+.formulaire #objet{
+    width: 100%;
+}
+
+.formulaire #message{
+    width: 100%;
+    height: 100px;
+    resize: none;
+}
+
+.formulaire button{
+    margin: 0 auto;
+    margin-top: 20px;
+    border-radius: 20px;
+    width: 20%;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 850px) {
+    
+    .formulaire{
+        max-width: 400px;
+        margin: 0 auto;
+    }
+
+    .formulaire #nom, #prenom, #mail, #tel{
+        width: 100%;
+    }
+
+    .formulaire #nom{
+        border-top-left-radius: 20px;
+        border-top-right-radius: 20px;
+    }
+    
+    .formulaire #prenom{
+        border-top-right-radius: 0;
+    }
+}

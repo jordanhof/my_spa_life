@@ -22,8 +22,24 @@ RGB(7, 30, 8)
 .formules-description h3{
     font-size: 2rem;
 }
-.formules-description p{
-    margin-top: 20px;
+
+.formules-description .prix{
+    font-size: 18px;
+    margin-top: 15px;
+    padding-left: 10px;
+}
+
+.formules-description .dure{
+    font-size: 14px;
+    margin-top: 15px;
+    padding-left: 10px;
+}
+
+.formules-description .description{
+    margin-top: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: justify ;
 }
 
 .gallery {
