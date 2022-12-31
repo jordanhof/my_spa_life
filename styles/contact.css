@@ -97,4 +97,8 @@
     .formulaire #prenom{
         border-top-right-radius: 0;
     }
+
+    .formulaire button{
+        width: 30%;
+    }
 }
