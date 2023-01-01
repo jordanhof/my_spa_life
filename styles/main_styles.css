@@ -40,7 +40,8 @@ body{
 
 .navbar a{
     color: rgb(202, 187, 167);
-    font-weight: 800;
+    font-weight: 900;
+    font-size: 18px;
 }
 
 .navbar .logo{
@@ -136,7 +137,7 @@ body{
 
 header{
     height: 500px;
-    background-image: url(../images/banner-header.jpg);
+    background-image: url(../images/banner-header-1.jpg);
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
